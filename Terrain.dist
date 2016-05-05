@@ -2,26 +2,26 @@
 # http://www.openengine.dk/wiki/Projects/Terrain
 
 # main repository
-darcs / http://openengine.dk/code/openengine
-darcs-dev / fh.daimi.au.dk:/users/cgd/code/openengine
+git / https://github.com/OpenEngineDK/openengine.git
+git-dev / git@github.com:OpenEngineDK/openengine.git
 
 # project repository
 # (uncomment the following two lines after uploading your project)
-darcs /projects/Terrain http://openengine.dk/code/projects/Terrain
-darcs-dev /projects/Terrain fh.daimi.au.dk:/users/cgd/code/projects/Terrain
+git /projects/Terrain https://github.com/OpenEngineDK/projects-Terrain.git
+git-dev /projects/Terrain git@github.com:OpenEngineDK/projects-Terrain.git
 
 # dist dependencies
-dist /extensions/HeightMap/HeightMap.dist http://openengine.dk/code/extensions/HeightMap/HeightMap.dist
-dist /extensions/Inspection/Inspection.dist       http://www.openengine.dk/code/extensions/Inspection/Inspection.dist
-dist /extensions/HUD/HUD.dist       http://www.openengine.dk/code/extensions/HUD/HUD.dist
-dist /extensions/SDL/SDL.dist       http://www.openengine.dk/code/extensions/SDL/SDL.dist
-dist /extensions/OpenGLRenderer/OpenGLRenderer.dist       http://www.openengine.dk/code/extensions/OpenGLRenderer/OpenGLRenderer.dist
-dist /extensions/CairoResource/CairoResource.dist       http://www.openengine.dk/code/extensions/CairoResource/CairoResource.dist
-dist /extensions/GenericHandlers/GenericHandlers.dist       http://www.openengine.dk/code/extensions/GenericHandlers/GenericHandlers.dist
-dist /extensions/TexUtils/TexUtils.dist       http://www.openengine.dk/code/extensions/TexUtils/TexUtils.dist
-dist /extensions/FreeImage/FreeImage.dist       http://www.openengine.dk/code/extensions/FreeImage/FreeImage.dist
-dist /extensions/OpenGLPostProcessEffects/OpenGLPostProcessEffects.dist       http://www.openengine.dk/code/extensions/OpenGLPostProcessEffects/OpenGLPostProcessEffects.dist
-dist /extensions/AntTweakBar/AntTweakBar.dist       http://www.openengine.dk/code/extensions/AntTweakBar/AntTweakBar.dist
+dist /extensions/HeightMap/HeightMap.dist https://raw.githubusercontent.com/OpenEngineDK/extensions-HeightMap/master/HeightMap.dist
+dist /extensions/Inspection/Inspection.dist       https://raw.githubusercontent.com/OpenEngineDK/extensions-Inspection/master/Inspection.dist
+dist /extensions/HUD/HUD.dist       https://raw.githubusercontent.com/OpenEngineDK/extensions-HUD/master/HUD.dist
+dist /extensions/SDL/SDL.dist       https://raw.githubusercontent.com/OpenEngineDK/extensions-SDL/master/SDL.dist
+dist /extensions/OpenGLRenderer/OpenGLRenderer.dist       https://raw.githubusercontent.com/OpenEngineDK/extensions-OpenGLRenderer/master/OpenGLRenderer.dist
+dist /extensions/CairoResource/CairoResource.dist       https://raw.githubusercontent.com/OpenEngineDK/extensions-CairoResource/master/CairoResource.dist
+dist /extensions/GenericHandlers/GenericHandlers.dist       https://raw.githubusercontent.com/OpenEngineDK/extensions-GenericHandlers/master/GenericHandlers.dist
+dist /extensions/TexUtils/TexUtils.dist       https://raw.githubusercontent.com/OpenEngineDK/extensions-TexUtils/master/TexUtils.dist
+dist /extensions/FreeImage/FreeImage.dist       https://raw.githubusercontent.com/OpenEngineDK/extensions-FreeImage/master/FreeImage.dist
+dist /extensions/OpenGLPostProcessEffects/OpenGLPostProcessEffects.dist       https://raw.githubusercontent.com/OpenEngineDK/extensions-OpenGLPostProcessEffects/master/OpenGLPostProcessEffects.dist
+dist /extensions/AntTweakBar/AntTweakBar.dist       https://raw.githubusercontent.com/OpenEngineDK/extensions-AntTweakBar/master/AntTweakBar.dist
 
 # windows libraries
 # darwin libraries
